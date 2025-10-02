@@ -24,6 +24,7 @@ nav {
     z-index: 10;
     box-sizing: border-box;
     align-items: center;
+    font-size: 1.6rem;
 }
 
 .navbar-logo h3 {
@@ -95,7 +96,7 @@ ul li a:hover {
     display: none;
 }
 
-@media(max-width: 800px) {
+@media(max-width: 768px) {
     .hideOnSmall {
         display: none;
     }
@@ -120,7 +121,6 @@ ul li a:hover {
     top: 40%;
     left: 50%;
     color: white;
-    /* transform: translate(-50%, -30%); */
 
     font-size: 3rem;
     letter-spacing: 5px;
