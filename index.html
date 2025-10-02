@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Explore.</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/5fd9aaf434.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <section>
+        <canvas id="myCanvas" width="800" height="600"></canvas>
+        <div class="container">
+            <nav>
+                <div class="navbar-logo">
+                    <h3>Explore</h3>
+                </div>
+                <ul class="sidebar" id="myTopnav">
+                    <li class="menu-button-close" onclick=hideSidebar()>
+                        <a href="#"><img src="./images/assets/X.png" style="width: 24px; height: 24px;" /></a>
+                    </li>
+                    <li><a href="#">Next Trip</a></li>
+                    <li><a href="#">Attraction</a></li>
+                    <li><a href="#">FAQ</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+                <ul class="navbar-links" id="myTopnav">
+                    <li class="hideOnSmall"><a href="#">Next Trip</a></li>
+                    <li class="hideOnSmall"><a href="#">Attraction</a></li>
+                    <li class="hideOnSmall"><a href="#">FAQ</a></li>
+                    <li class="hideOnSmall"><a href="#">Contact</a></li>
+                    <li class="menu-button" onclick=showSidebar()>
+                        <a href="#"><img src="./images/assets/bars.png" style="width: 24px; height: 24px;"/></a>
+                    </li>
+                    </li>
+                </ul>
+            </nav>
+            <div class="background-image-container">
+                <h2 class="main-title">Explore...</h2>
+                <img src="./images/backgrounds/sky.png" class="parallax-image sky" alt="" data-speed="0.25" />
+                <img src="./images/backgrounds/mountains.png" class="parallax-image mountains" alt=""
+                    data-speed="0.5" />
+                <img src="./images/backgrounds/partial_mountain.png" class="parallax-image partial-mountain" alt=""
+                    data-speed="0.75" />
+                <img src="./images/backgrounds/person.png" class="parallax-image person" alt="" data-speed="1" />
+                <img src="./images/backgrounds/ground.png" class="parallax-image ground" alt="" data-speed="1.25" />
+            </div>
+        </div>
+        <div class="content-container">
+
+            <div class="content-items-container">
+                <div>
+                    <img src="./images/assets/skytree_japan.jpg" alt="" />
+                    <div class="story">
+                        <h4>Japan</h4>
+                        <h3>Tokyo Skytree</h3>
+                        <p class="text">
+                            Vivamus eget laoreet arcu. In mattis auctor eros a consequat. Duis mollis tempus elit
+                            molestie
+                            lobortis.
+                            Donec congue sit amet quam eget fringilla. Morbi eleifend felis orci, nec sodales ante porta
+                            in.
+                            Duis non pharetra metus,
+                            at varius nisl. Praesent quis rutrum urna. Quisque a dignissim libero, at sollicitudin odio.
+                            Duis imperdiet, est eget porttitor facilisis,
+                            turpis dolor convallis nibh, maximus pretium tellus tellus eget magna.
+                            Donec nec varius mauris, non convallis dui. Sed ut tempor quam. Quisque est magna, dapibus a
+                            tristique eu, iaculis quis nisl. Morbi pulvinar lobortis ex.
+                            Vestibulum aliquam leo tellus, vel rutrum ipsum iaculis ac.
+                        </p>
+                    </div>
+                </div>
+                <div>
+                    <img src="./images/assets/castle_ga.jpg" alt="" />
+                    <div class="story">
+                        <h4>Germany</h4>
+                        <h3>Nueschwanstein Castle</h3>
+                        <p class="text">
+                            Vivamus eget laoreet arcu. In mattis auctor eros a consequat. Duis mollis tempus elit
+                            molestie
+                            lobortis.
+                            Donec congue sit amet quam eget fringilla. Morbi eleifend felis orci, nec sodales ante porta
+                            in.
+                            Duis non pharetra metus,
+                            at varius nisl. Praesent quis rutrum urna. Quisque a dignissim libero, at sollicitudin odio.
+                            Duis imperdiet, est eget porttitor facilisis,
+                            turpis dolor convallis nibh, maximus pretium tellus tellus eget magna.
+                            Donec nec varius mauris, non convallis dui. Sed ut tempor quam. Quisque est magna, dapibus a
+                            tristique eu, iaculis quis nisl. Morbi pulvinar lobortis ex.
+                            Vestibulum aliquam leo tellus, vel rutrum ipsum iaculis ac.
+                        </p>
+                    </div>
+                </div>
+                <div>
+                    <img src="./images/assets/capetown_sa.jpg" alt="" />
+                    <div class="story">
+                        <h4>South Africa</h4>
+                        <h3>Cape Town</h3>
+                        <p class="text">
+                            Vivamus eget laoreet arcu. In mattis auctor eros a consequat. Duis mollis tempus elit
+                            molestie
+                            lobortis.
+                            Donec congue sit amet quam eget fringilla. Morbi eleifend felis orci, nec sodales ante porta
+                            in.
+                            Duis non pharetra metus,
+                            at varius nisl. Praesent quis rutrum urna. Quisque a dignissim libero, at sollicitudin odio.
+                            Duis imperdiet, est eget porttitor facilisis,
+                            turpis dolor convallis nibh, maximus pretium tellus tellus eget magna.
+                            Donec nec varius mauris, non convallis dui. Sed ut tempor quam. Quisque est magna, dapibus a
+                            tristique eu, iaculis quis nisl. Morbi pulvinar lobortis ex.
+                            Vestibulum aliquam leo tellus, vel rutrum ipsum iaculis ac.
+                        </p>
+                    </div>
+                </div>
+                <div>
+                    <img src="./images/assets/quebec_ca.jpg" alt="" />
+                    <div class="story">
+                        <h4>Canada</h4>
+                        <h3>Quebec</h3>
+                        <p class="text">
+                            Vivamus eget laoreet arcu. In mattis auctor eros a consequat. Duis mollis tempus elit
+                            molestie
+                            lobortis.
+                            Donec congue sit amet quam eget fringilla. Morbi eleifend felis orci, nec sodales ante porta
+                            in.
+                            Duis non pharetra metus,
+                            at varius nisl. Praesent quis rutrum urna. Quisque a dignissim libero, at sollicitudin odio.
+                            Duis imperdiet, est eget porttitor facilisis,
+                            turpis dolor convallis nibh, maximus pretium tellus tellus eget magna.
+                            Donec nec varius mauris, non convallis dui. Sed ut tempor quam. Quisque est magna, dapibus a
+                            tristique eu, iaculis quis nisl. Morbi pulvinar lobortis ex.
+                            Vestibulum aliquam leo tellus, vel rutrum ipsum iaculis ac.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+        <p>&copy; 2025 Explore.</p>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="index.js"></script>
+</body>
+
+</html>
