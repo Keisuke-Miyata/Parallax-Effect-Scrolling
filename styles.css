@@ -175,6 +175,7 @@ ul li a:hover {
     background-color: pink;
     margin: 2rem 2rem;
     max-width: 350px;
+    min-height: 550px;
 }
 
 .story {
@@ -185,7 +186,9 @@ ul li a:hover {
 .story p {
     font-size: 14px;
     text-align: left;
+    padding-top: 10px;
 }
+
 
 @media (max-width: 768px) {
     .content-items-container>div {
